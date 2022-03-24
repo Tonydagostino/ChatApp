@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Login</title>
+	</head>
+	<body class='bg'>
+		<div class='row align-items-center'>
+			<div class='col-md-4'></div>
+			<div class='col-md-4' style='text-align: center;'>
+				<h1 class='display-1 mt-4 p-2'>ChatApp</h1>
+			</div>
+			<div class='col-md-4'></div>
+		</div>
+		<div class='row align-items-center'>
+			<div class='col-md-3'></div>
+			<div class='col-md-3' style="text-align: center;">
+				<h3>Register</h3>
+				<!-- Registration Username --> 
+				<div class="input-group">
+					<div class="input-group-prepend ">
+						<span class="input-group-text bg-primary rounded text-white">Username</span>
+					</div>
+					<input type="text" id='registerUsername' class="w-60 rounded-lg border border-primary">
+				</div>
+				<!-- Registration Password -->
+				<div class="input-group mt-2">
+				  <div class="input-group-prepend">
+					<span class="input-group-text ml-1 bg-primary rounded text-white">Password</span>
+				  </div>
+					<input type="password"  id='registerPassword' class="w-60 rounded-lg border border-primary">
+				</div>
+					<button class='btn btn-primary mt-2' id='registerBtn'>Register</button>
+			</div>
+			<div class='col-md-3' style='text-align: center;'>
+				<h3>Login</h3>
+				<!-- Username --> 
+				<div class="input-group">
+					<div class="input-group-prepend ">
+						<span class="input-group-text bg-primary rounded text-white">Username</span>
+					</div>
+					<input type="text" name='loginUsername' id='loginUsername' class="w-60 rounded-lg border border-primary">
+				</div>
+				<!-- Password -->
+				<div class="input-group mt-2">
+				  <div class="input-group-prepend">
+					<span class="input-group-text ml-1 bg-primary rounded text-white">Password</span>
+				  </div>
+					<input type="password" name='loginPassword' id='loginPassword' class="w-60 rounded-lg border border-primary">
+				</div>
+					<a class='btn btn-primary mt-2' id='loginBtn'>Login</a>
+			</div>
+			<div class='col-md-3'></div>
+		</div>
+		<script src='js/clientLogin.js'></script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	</body>
+</html>
