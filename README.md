@@ -13,7 +13,6 @@ Functionalities include:
 
 
 STRUCTURE:
-
 ---------------------------------------------------------------------------
 SERVER FILES:
 
@@ -42,8 +41,8 @@ database.js:
 -Utilizes mysql package for node.js
 -Establish connection to the database
 -Houses functions to query the database
-----------------------------------------------------------------------------
 
+----------------------------------------------------------------------------
 CLIENT FILES:
 
 clientLogin.js:
@@ -57,8 +56,8 @@ clientLogin.js:
 clientSocket.js:
 -Utilizes socket.io for sending and receiving requests
 -Handles all client functions while in the chatrooms
-----------------------------------------------------------------------------
 
+----------------------------------------------------------------------------
 Database:
 Since we are utilizing Google Cloud to deploy the HTTP server, we concluded it would be best
 to also use Google Cloud to create a database instance. The database holds our users' account
